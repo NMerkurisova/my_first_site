@@ -94,9 +94,9 @@
     margin: auto;
     left: 50%;
     bottom: 0;
-    transform: translate(-50%, -85%);
+    transform: translate(-50%, -45%);
     box-sizing: border-box;
-    top: 110%;
+    top: 60%;
     width: 100%;
     max-width: 500px;
     min-height: 418px;
@@ -107,6 +107,8 @@
 }
 
 .login-heading {
+    font-family: 'Roboto';
+    font-style: normal;
     display: block;
     align-items: center;
     text-align: center;
@@ -166,7 +168,7 @@
     text-decoration: none;
     flex-wrap: wrap;
     color: #fff;
-    background-color: #EA5D21;
+    background-color: #EA6113;
     box-sizing: border-box;
     position: relative;
     margin: 28px 0 0 0;
@@ -228,10 +230,9 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 1210px;
-    gap: 50px;
-    margin: 0 auto;
-    padding: 0 45px;
-    margin-bottom: 24px;
+    gap: 31px;
+    padding: 0 13px;
+    margin-bottom: 12px;
     box-sizing: border-box;
 }
 
@@ -266,8 +267,7 @@
     text-transform: uppercase;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    position: absolute;
+    font-weight: 400;  
     line-height: 21px;
     font-size: 18px;
     transform: translateY(-50%);
